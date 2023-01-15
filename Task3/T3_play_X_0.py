@@ -18,5 +18,5 @@ def play_X_0(play_char):
                 print('Клетка занята')
         else:
             print('Вы ввели некорректное число. Введите число от 1 до 9')
-
+    print(T3_print_board.print_board(board))  
 

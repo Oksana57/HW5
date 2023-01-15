@@ -2,13 +2,13 @@ board=list(range(1,10))
 import T3_print_board
 import T3_play_X_0
 import T3_win_cod
-# T3_print_board.print_board(board)
+T3_print_board.print_board(board)
 
 def game(board):
     count=0
     win=False
     while not win:
-        T3_print_board.print_board(board)
+        # T3_print_board.print_board(board)
         if count%2==0:
             T3_play_X_0.play_X_0('X')
         else:
@@ -23,6 +23,7 @@ def game(board):
         if count==9:
             print('Ничья')
             break
-    print(T3_print_board.print_board(board))  
+    
+    # print(T3_print_board.print_board(board))  
 
 game(board)              
